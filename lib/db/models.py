@@ -23,6 +23,15 @@ class Restaurant(Base):
     address = Column(String())
     phone = Column(Integer())
     town_id = Column(Integer(), ForeignKey('towns.id'))
+    reviews = relationship("Review", backref=backref('review'))
 
     def __repr__(self):
         return f"Restaurant Name: {self.name}, Address: {self.address}, Phone: {self.phone}"
+    
+class Review(Base):
+    __tablename__ = 'reviews'
+
+    id = Column(Integer(), primary_key=True)
+    review_text = Column(String())
+    review_rating = Column(Integer())
+    restaurant_id = Column(Integer(), ForeignKey('restaurants.id'))
