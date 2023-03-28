@@ -31,7 +31,7 @@ class CLI:
             time.sleep(1)
         print('\n')
         print("finish start")
-        self.start()
+        self.demo()
 
     def start(self):
         exit = False
@@ -40,9 +40,6 @@ class CLI:
             z = input("Would You Like To Continue?\n")
             if z == 'q' or z == 'Q':
                 exit = True
-
-
-
 
 
 if __name__ == '__main__':
