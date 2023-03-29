@@ -39,8 +39,7 @@ class CLI:
         print("1) Retrieve Data of Towns, Restaurants, Review")
         print("2) View Relationships")
         print("3) Add Data")
-        print("4) ...")
-        print("5) Quit")
+        print("4) Quit")
 
     def start(self):
         print(f'Welcome to PlatePal {self.name}\n\n')
@@ -57,17 +56,15 @@ class CLI:
             elif sel == '3':
                 add_data(self)
 
-            elif sel == '4':
-                pass
 
-            elif sel == '5':
+            elif sel == '4':
                 exit = True
             
             else:
                 print("Invalid Input! Restarting Main Menu...")
                 time.sleep(1)
                 os.system('cls' if os.name == 'nt' else 'clear')
-
+        printer(self.name)
 def add_data(self):
     os.system('cls' if os.name == 'nt' else 'clear')
     while True:
@@ -311,7 +308,8 @@ def view_R_r(self):
 
 
 
-
+def printer(user_input):
+    print(f'Goodbye {user_input}')
 if __name__ == '__main__':
     engine = create_engine('sqlite:///db/thirddb.db')
     Session = sessionmaker(bind=engine)
