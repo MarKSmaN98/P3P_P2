@@ -13,32 +13,32 @@ class CLI:
         self.name = user_input
         self.start()
 
-    def init(self):
-        print("Starting CLI Interface...\n")
-        time.sleep(.5)
-        print(' . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .')
-        time.sleep(.5)
-        print('.                                                                    .')
-        time.sleep(.5)
-        print('.                        RAYMOND AN                                  .')
-        time.sleep(.5)
-        print('.                        MARK COATS                                  .')
-        time.sleep(.5)
-        print(".                        KYLE O'NEILL                                .")
-        time.sleep(.5)
-        print('.                                                                    .')
-        time.sleep(.5)
-        print(' . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .')
-        for _ in range(4):
-            print('.                                                                    .')
-            time.sleep(.5)
-        print('\n')
-        self.start()
+    # def init(self):
+    #     print("Starting CLI Interface...\n")
+    #     time.sleep(.5)
+    #     print(' . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .')
+    #     time.sleep(.5)
+    #     print('.                                                                    .')
+    #     time.sleep(.5)
+    #     print('.                        RAYMOND AN                                  .')
+    #     time.sleep(.5)
+    #     print('.                        MARK COATS                                  .')
+    #     time.sleep(.5)
+    #     print(".                        KYLE O'NEILL                                .")
+    #     time.sleep(.5)
+    #     print('.                                                                    .')
+    #     time.sleep(.5)
+    #     print(' . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .')
+    #     for _ in range(4):
+    #         print('.                                                                    .')
+    #         time.sleep(.5)
+    #     print('\n')
+    #     self.start()
 
     def menu(self):
         print("1) Retrieve Data of Towns, Restaurants, Review")
         print("2) View Relationships")
-        print("3) ...")
+        print("3) Add Data")
         print("4) ...")
         print("5) Quit")
 
@@ -55,7 +55,7 @@ class CLI:
                 start_rel_viewer(self)
 
             elif sel == '3':
-                pass
+                add_data(self)
 
             elif sel == '4':
                 pass
@@ -71,10 +71,94 @@ class CLI:
                     time.sleep(.5)
                 print('\n')
                 os.system('cls' if os.name == 'nt' else 'clear')
-                self.init()
+                # self.init()
             # z = input("Would You Like To Continue?\n")
             # if z == 'q' or z == 'Q':
             #     exit = True
+
+def add_data(self):
+    print("What do you want to add?")
+    #sub menu
+    print("     1) Town")
+    print('     2) Restaurant')
+    print('     3) Review')
+    sel = input("Select an option: ")
+    print('  ')
+    if sel == '1':
+        name = input("Type Town Name: ")
+        print(' ')
+        state = input("Type State: ")
+        town = Town(name=name, state=state)
+        session.add(town)
+        session.commit()
+        self.towns.append(town)
+
+    elif sel == '2':
+        print_towns(self.towns)
+        print(' ')
+        user_input = input("Is your town in the list above? (Type Y/N): ")
+        print(' ')
+
+        while user_input != "Y" and user_input != "y":
+            add_data(self)
+            print(' ')
+            print_towns(self.towns)
+            print(' ')
+            user_input = input("Is your town in the list above? (Type Y/N): ")
+            print(' ')
+
+        make_restaurant(self)
+
+    elif sel == '3':
+        print_restaurants(self.restaurants)
+        print(' ')
+        user_input = input("Is your restaurant in the list above? (Type Y/N): ")
+        print(' ')
+
+        while user_input != "Y" and user_input != "y":
+            add_data(self)
+            print(' ')
+            print_towns(self.restaurants)
+            print(' ')
+            user_input = input("Is your restaurant in the list above? (Type Y/N): ")
+            print(' ')
+
+        make_review(self)
+
+def make_restaurant(self):
+    user_town = input("Type the number of the town from the list above: ")
+    name = input("Name of Restaurant: ")
+    address = input("Address of Restaurant: ")
+    phone = input("Phone number of Restaurant")
+    restaurant = Restaurant(
+        name = name,
+        address = address,
+        phone = phone,
+        town_id = self.towns[int(user_town)-1].id
+    )
+    session.add(restaurant)
+    session.commit()
+    self.restaurants.append(restaurant)
+    print(' ')
+    print('Congrats! You added the restaurant to your PlatePal!')
+    print_restaurant(restaurant)
+
+def make_review(self):
+    user_restaurant = input("Type the number of the restaurant from the list above: ")
+    review = input("Leave your Review!!!: ")
+    rating = input("How many stars? (Out of 5): ")
+    review = Review(
+        review_text = review,
+        review_rating = rating,
+        restaurant_id = self.restaurants[int(user_restaurant)-1].id
+    )
+    session.add(review)
+    session.commit()
+    self.reviews.append(review)
+    print(' ')
+    print('Congrats! You added the review to your PlatePal!')
+    print_review(review)
+
 
 def get_data(self):
     print("Data Catalogue")
@@ -92,33 +176,56 @@ def get_data(self):
         print_reviews(self.reviews)
 
 def print_towns(towns):
+    count = 0
     print('  ')
     print('**Towns**')
     print('  ')
     for index, town in enumerate(towns):
         print(f'{index+1}. {town.name}')
+        count += 1
+        if count % 20 == 0:
+            sel = input("Press Enter To Continue Or Q to Quit ")
+            if sel == 'q' or sel == 'Q':
+                break
     print('  ')
 
 def print_restaurants(restaurants):
+    count = 0
+
     print('  ')
     print('**Restaurants**')
     print('  ')
     for index, restaurant in enumerate(restaurants):
+        print(f'{index+1}.')
         print_restaurant(restaurant)
+        count += 1
+        if count % 50 == 0:
+            sel = input("Press Enter To Continue Or Q to Quit ")
+            if sel == 'q' or sel == 'Q':
+                break
+
     print('  ')
 
 def print_restaurant(restaurant):
-    print('')
     print(f'Restaurant: {restaurant.name}')
     print(f'     Address: {restaurant.address}')
     print(f'     Phone:   {restaurant.phone}')
 
 def print_reviews(reviews):
+    count = 0
+
     print('  ')
     print('**Reviews**')
     print('  ')
     for index, review in enumerate(reviews):
+        print(f'{index+1}.')
         print_review(review)
+        count += 1
+        if count % 100 == 0:
+            sel = input("Press Enter To Continue Or Q to Quit ")
+            if sel == 'q' or sel == 'Q':
+                break
+
     print('  ')
 
 def print_review(review):
