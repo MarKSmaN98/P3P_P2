@@ -133,7 +133,9 @@ def view_T_R(self):
         print(f'{town.name}____________________________')
         for rest in self.restaurants:
             if rest.town_id == town.id:
+                print("         ___")
                 print(f'        {rest.name}')
+                print("         ___")
         count += 1
         if count % 50 == 0:
             sel = input("Press Enter To Continue Or Q to Quit ")
@@ -146,8 +148,10 @@ def view_R_r(self):
         print(f'{rest.name}____________________________')
         for rev in self.reviews:
             if rev.restaurant_id == rest.id:
+                print("         ___")
                 print(f'        {rev.review_text}')
                 print(f'        {rev.review_rating} Stars')
+                print("         ___")
         count += 1
         if count % 50 == 0:
             sel = input("Press Enter To Continue Or Q to Quit ")
