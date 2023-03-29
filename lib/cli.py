@@ -64,17 +64,9 @@ class CLI:
                 exit = True
             
             else:
-                print("Invalid Input!")
-                print ("Restarting")
-                # for _ in range(4):
-                #     print('.', end=' ')
-                #     time.sleep(.5)
-                print('\n')
+                print("Invalid Input! Restarting Main Menu...")
+                time.sleep(1)
                 os.system('cls' if os.name == 'nt' else 'clear')
-                self.start()
-            # z = input("Would You Like To Continue?\n")
-            # if z == 'q' or z == 'Q':
-            #     exit = True
 
 def add_data(self):
     print("What do you want to add?")
