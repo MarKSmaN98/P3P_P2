@@ -6,7 +6,7 @@ import time, random, os
 
 
 class CLI:
-    def __init__(self, user_input):
+    def __init__(self, user_input = "undefined"):
         self.town = [town for town in session.query(Town)]
         self.restaurant = [restaurant for restaurant in session.query(Restaurant)]
         self.review = [review for review in session.query(Review)]
@@ -37,11 +37,32 @@ class CLI:
         self.start()
 
     def menu(self):
-        print("1) ...")
+        print("1) Retrieve Data")
         print("2) ...")
         print("3) ...")
         print("4) ...")
         print("5) Quit")
+
+    def get_data(self):
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print("Data Catalogue")
+        for _ in range(5):
+            print('\n')
+        #sub menu
+        print("1) Towns")
+        print('2) Restaurants')
+        print('3) Reviews')
+        sel = input("Select a Catalogue")
+
+        #clear console again
+        #count = 0
+        #for item in list:
+        #   if count % 50 == 0:
+        #       input("Press Enter To Continue")
+        #   print(item)
+        #   count ++
+
+
 
     def start(self):
         print('Welcome to ')
@@ -51,8 +72,7 @@ class CLI:
             sel = input("What would you like to do?")
 
             if sel == 1:
-                pass
-
+                self.get_data(self)
             elif sel == 2:
                 pass
 
