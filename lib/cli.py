@@ -33,18 +33,17 @@ class CLI:
             print('.                                                                    .')
             time.sleep(.5)
         print('\n')
-        print("finish start")
         self.start()
 
     def menu(self):
         print("1) Retrieve Data of Towns, Restaurants, Review")
-        print("2) ...")
+        print("2) View Relationships")
         print("3) ...")
         print("4) ...")
         print("5) Quit")
 
     def start(self):
-        print('Welcome to PlatePal {self.name}')
+        print(f'Welcome to PlatePal {self.name}\n\n')
         exit = False
         while exit == False:
             self.menu()
@@ -53,7 +52,7 @@ class CLI:
             if sel == '1':
                 get_data(self)
             elif sel == '2':
-                pass
+                start_rel_viewer(self)
 
             elif sel == '3':
                 pass
@@ -100,13 +99,64 @@ def print_towns(towns):
 
     print('  ')
 
-    #clear console again
-    #count = 0
-    #for item in list:
-    #   if count % 50 == 0:
-    #       input("Press Enter To Continue")
-    #   print(item)
-    #   count ++
+
+#__________________________RELATIONSHIP VIEWER_____________________________________
+#Mark Coats
+
+def start_rel_viewer(self):
+    os.system('cls' if os.name == 'nt' else 'clear')
+    sub_exit = False
+    while sub_exit == False:
+        print("....Relationship Viewer....\n\n")
+        print("Town to Restauraunt")
+        print("Restaurant to Review")
+        print("Exit")
+
+        sel = input("Select an Option: ")
+
+        if sel == '1':
+            view_T_R(self)
+        elif sel == '2':
+            view_R_r(self)
+        elif sel == '3':
+            sub_exit = True
+            print("Returning To Main Menu...")
+            os.system('cls' if os.name == 'nt' else 'clear')
+        else:
+            print("invalid input!")
+            time.sleep(1)
+            start_rel_viewer(self)
+
+def view_T_R(self):
+    count = 0
+    for town in self.towns:
+        print(f'{town.name}____________________________')
+        for rest in self.restaurants:
+            if rest.town_id == town.id:
+                print(f'        {rest.name}')
+        count += 1
+        if count % 50 == 0:
+            sel = input("Press Enter To Continue Or Q to Quit ")
+            if sel == 'q' or sel == 'Q':
+                break
+
+def view_R_r(self):
+    count = 0
+    for rest in self.restaurants:
+        print(f'{rest.name}____________________________')
+        for rev in self.reviews:
+            if rev.restaurant_id == rest.id:
+                print(f'        {rev.review_text}')
+                print(f'        {rev.review_rating} Stars')
+        count += 1
+        if count % 50 == 0:
+            sel = input("Press Enter To Continue Or Q to Quit ")
+            if sel == 'q' or sel == 'Q':
+                break
+
+
+#________________________________END RELATIONSHIP VIEWER_____________________________
+
 
 
 
