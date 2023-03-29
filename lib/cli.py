@@ -33,9 +33,18 @@ class CLI:
         print("finish start")
         self.demo()
 
+    def menu():
+        print("1) ...")
+        print("1) ...")
+        print("1) ...")
+        print("1) ...")
+        print("1) ...")
+
     def start(self):
         exit = False
         while exit == False:
+            sel = input("What would you like to do?")
+            
             pass
             z = input("Would You Like To Continue?\n")
             if z == 'q' or z == 'Q':
@@ -46,7 +55,5 @@ if __name__ == '__main__':
     engine = create_engine('sqlite:///thriddb.db')
     Session = sessionmaker(bind=engine)
     session = Session()
-    print("Test Out\n")
-    z = input("Enter some shit\n")
     CLI(z)
     time.sleep(5)
