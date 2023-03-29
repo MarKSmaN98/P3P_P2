@@ -95,20 +95,49 @@ def get_data(self):
     elif sel == '3':
         print_reviews(self.reviews)
 
+# def view_T_R(self):
+#     count = 0
+#     for town in self.towns:
+#         print(f'{town.name}____________________________')
+#         for rest in self.restaurants:
+#             if rest.town_id == town.id:
+#                 print("         ___")
+#                 print(f'        {rest.name}')
+#                 print("         ___")
+#         count += 1
+#         if count % 50 == 0:
+#             sel = input("Press Enter To Continue Or Q to Quit ")
+#             if sel == 'q' or sel == 'Q':
+#                 break
+
 def print_towns(towns):
+    count = 0
     print('  ')
     print('**Towns**')
     print('  ')
     for index, town in enumerate(towns):
         print(f'{index+1}. {town.name}')
+        count += 1
+        if count % 20 == 0:
+            sel = input("Press Enter To Continue Or Q to Quit ")
+            if sel == 'q' or sel == 'Q':
+                break
     print('  ')
 
 def print_restaurants(restaurants):
+    count = 0
+
     print('  ')
     print('**Restaurants**')
     print('  ')
     for index, restaurant in enumerate(restaurants):
         print_restaurant(restaurant)
+        count += 1
+        if count % 50 == 0:
+            sel = input("Press Enter To Continue Or Q to Quit ")
+            if sel == 'q' or sel == 'Q':
+                break
+
     print('  ')
 
 def print_restaurant(restaurant):
@@ -118,29 +147,25 @@ def print_restaurant(restaurant):
     print(f'     Phone:   {restaurant.phone}')
 
 def print_reviews(reviews):
+    count = 0
+
     print('  ')
     print('**Reviews**')
     print('  ')
     for index, review in enumerate(reviews):
         print_review(review)
+        count += 1
+        if count % 100 == 0:
+            sel = input("Press Enter To Continue Or Q to Quit ")
+            if sel == 'q' or sel == 'Q':
+                break
+
     print('  ')
 
 def print_review(review):
     print('')
     print(f'Review: {review.review_text}')
     print(f'Rating: {review.review_rating} Stars')
-
-
-
-    #clear console again
-    #count = 0
-    #for item in list:
-    #   if count % 50 == 0:
-    #       input("Press Enter To Continue")
-    #   print(item)
-    #   count ++
-
-
 
 if __name__ == '__main__':
     engine = create_engine('sqlite:///db/thirddb.db')

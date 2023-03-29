@@ -24,7 +24,7 @@ if __name__ == '__main__':
 
     towns = []
 
-    for _ in range(10):
+    for _ in range(random.randint(10, 100)):
         town = Town(
             name=f"{faker.first_name()} Town",
             state=random.choice(state_names),
