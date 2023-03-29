@@ -90,6 +90,10 @@ def get_data(self):
     print('  ')
     if sel == '1':
         print_towns(self.towns)
+    elif sel == '2':
+        print_restaurants(self.restaurants)
+    elif sel == '3':
+        print_reviews(self.reviews)
 
 def print_towns(towns):
     print('  ')
@@ -97,8 +101,36 @@ def print_towns(towns):
     print('  ')
     for index, town in enumerate(towns):
         print(f'{index+1}. {town.name}')
-
     print('  ')
+
+def print_restaurants(restaurants):
+    print('  ')
+    print('**Restaurants**')
+    print('  ')
+    for index, restaurant in enumerate(restaurants):
+        print_restaurant(restaurant)
+    print('  ')
+
+def print_restaurant(restaurant):
+    print('')
+    print(f'Restaurant: {restaurant.name}')
+    print(f'     Address: {restaurant.address}')
+    print(f'     Phone:   {restaurant.phone}')
+
+def print_reviews(reviews):
+    print('  ')
+    print('**Reviews**')
+    print('  ')
+    for index, review in enumerate(reviews):
+        print_review(review)
+    print('  ')
+
+def print_review(review):
+    print('')
+    print(f'Review: {review.review_text}')
+    print(f'Rating: {review.review_rating} Stars')
+
+
 
     #clear console again
     #count = 0

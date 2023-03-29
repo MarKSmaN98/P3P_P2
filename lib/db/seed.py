@@ -2,7 +2,7 @@ from faker import Faker
 import random
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from db.models import (Base, Town, Restaurant, Review)
+from models import (Base, Town, Restaurant, Review)
 
 if __name__ == '__main__':
     engine = create_engine('sqlite:///thirddb.db')
@@ -24,7 +24,7 @@ if __name__ == '__main__':
 
     towns = []
 
-    for _ in range(random.randint(10, 100)):
+    for _ in range(10):
         town = Town(
             name=f"{faker.first_name()} Town",
             state=random.choice(state_names),
