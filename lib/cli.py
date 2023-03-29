@@ -69,59 +69,69 @@ class CLI:
                 os.system('cls' if os.name == 'nt' else 'clear')
 
 def add_data(self):
-    print("What do you want to add?")
-    #sub menu
-    print("     1) Town")
-    print('     2) Restaurant')
-    print('     3) Review')
-    sel = input("Select an option: ")
-    print('  ')
-    if sel == '1':
-        name = input("Type Town Name: ")
-        print(' ')
-        state = input("Type State: ")
-        town = Town(name=name, state=state)
-        session.add(town)
-        session.commit()
-        self.towns.append(town)
+    os.system('cls' if os.name == 'nt' else 'clear')
+    while True:
+        print("What do you want to add?")
+        #sub menu
+        print("     1) Town")
+        print('     2) Restaurant')
+        print('     3) Review')
+        print('     4) Exit')
 
-    elif sel == '2':
-        print_towns(self.towns)
-        print(' ')
-        user_input = input("Is your town in the list above? (Type Y/N): ")
-        print(' ')
-
-        while user_input != "Y" and user_input != "y":
-            add_data(self)
+        sel = input("Select an option: ")
+        print('  ')
+        if sel == '1':
+            name = input("Type Town Name: ")
             print(' ')
+            state = input("Type State: ")
+            town = Town(name=name, state=state)
+            session.add(town)
+            session.commit()
+            self.towns.append(town)
+
+        elif sel == '2':
             print_towns(self.towns)
             print(' ')
             user_input = input("Is your town in the list above? (Type Y/N): ")
             print(' ')
 
-        make_restaurant(self)
+            while user_input != "Y" and user_input != "y":
+                add_data(self)
+                print(' ')
+                print_towns(self.towns)
+                print(' ')
+                user_input = input("Is your town in the list above? (Type Y/N): ")
+                print(' ')
 
-    elif sel == '3':
-        print_restaurants(self.restaurants)
-        print(' ')
-        user_input = input("Is your restaurant in the list above? (Type Y/N): ")
-        print(' ')
+            make_restaurant(self)
 
-        while user_input != "Y" and user_input != "y":
-            add_data(self)
-            print(' ')
-            print_towns(self.restaurants)
+        elif sel == '3':
+            print_restaurants(self.restaurants)
             print(' ')
             user_input = input("Is your restaurant in the list above? (Type Y/N): ")
             print(' ')
 
-        make_review(self)
+            while user_input != "Y" and user_input != "y":
+                add_data(self)
+                print(' ')
+                print_towns(self.restaurants)
+                print(' ')
+                user_input = input("Is your restaurant in the list above? (Type Y/N): ")
+                print(' ')
+
+            make_review(self)
+        elif sel == '4':
+            os.system('cls' if os.name == 'nt' else 'clear')
+            break
+        else:
+            print("invalid input!")
+            time.sleep(1)
 
 def make_restaurant(self):
     user_town = input("Type the number of the town from the list above: ")
     name = input("Name of Restaurant: ")
     address = input("Address of Restaurant: ")
-    phone = input("Phone number of Restaurant")
+    phone = input("Phone number of Restaurant: ")
     restaurant = Restaurant(
         name = name,
         address = address,
@@ -154,8 +164,7 @@ def make_review(self):
 
 def get_data(self):
     os.system('cls' if os.name == 'nt' else 'clear')
-    sub_exit = False
-    while sub_exit == False:
+    while True:
         print("Data Catalogue")
         #sub menu
         print("     1) Towns")
@@ -171,11 +180,14 @@ def get_data(self):
         elif sel == '3':
             print_reviews(self.reviews)
         elif sel == '4':
-            sub_exit = True
             os.system('cls' if os.name == 'nt' else 'clear')
+            break
         else:
             print("invalid input!")
-            get_data(self)
+            time.sleep(1)
+            os.system('cls' if os.name == 'nt' else 'clear')
+
+
 
 
 
