@@ -11,29 +11,29 @@ class CLI:
         self.restaurants = [restaurant for restaurant in session.query(Restaurant)]
         self.reviews = [review for review in session.query(Review)]
         self.name = user_input
-        self.start()
+        self.init()
 
-    # def init(self):
-    #     print("Starting CLI Interface...\n")
-    #     time.sleep(.5)
-    #     print(' . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .')
-    #     time.sleep(.5)
-    #     print('.                                                                    .')
-    #     time.sleep(.5)
-    #     print('.                        RAYMOND AN                                  .')
-    #     time.sleep(.5)
-    #     print('.                        MARK COATS                                  .')
-    #     time.sleep(.5)
-    #     print(".                        KYLE O'NEILL                                .")
-    #     time.sleep(.5)
-    #     print('.                                                                    .')
-    #     time.sleep(.5)
-    #     print(' . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .')
-    #     for _ in range(4):
-    #         print('.                                                                    .')
-    #         time.sleep(.5)
-    #     print('\n')
-    #     self.start()
+    def init(self):
+        print("Starting CLI Interface...\n")
+        time.sleep(.5)
+        print(' . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .')
+        time.sleep(.5)
+        print('.                                                                    .')
+        time.sleep(.5)
+        print('.                        RAYMOND AN                                  .')
+        time.sleep(.5)
+        print('.                        MARK COATS                                  .')
+        time.sleep(.5)
+        print(".                        KYLE O'NEILL                                .")
+        time.sleep(.5)
+        print('.                                                                    .')
+        time.sleep(.5)
+        print(' . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .')
+        for _ in range(4):
+            print('.                                                                    .')
+            time.sleep(.5)
+        print('\n')
+        self.start()
 
     def menu(self):
         print("1) Retrieve Data of Towns, Restaurants, Review")
@@ -66,12 +66,12 @@ class CLI:
             else:
                 print("Invalid Input!")
                 print ("Restarting")
-                for _ in range(4):
-                    print('.', end=' ')
-                    time.sleep(.5)
+                # for _ in range(4):
+                #     print('.', end=' ')
+                #     time.sleep(.5)
                 print('\n')
                 os.system('cls' if os.name == 'nt' else 'clear')
-                # self.init()
+                self.start()
             # z = input("Would You Like To Continue?\n")
             # if z == 'q' or z == 'Q':
             #     exit = True
