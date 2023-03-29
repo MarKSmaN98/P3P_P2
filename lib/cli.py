@@ -6,9 +6,12 @@ import time, random
 
 
 class CLI:
-    def __init__(self, z):
-        print(z)
-        self.init()
+    def __init__(self, user_input):
+        self.town = [town for town in session.query(Town)]
+        self.restaurant = [restaurant for restaurant in session.query(Restaurant)]
+        self.review = [review for review in session.query(Review)]
+        self.name = user_input
+        self.start()
 
     def init(self):
         print("Starting CLI Interface...\n")
@@ -41,9 +44,11 @@ class CLI:
         print("1) ...")
 
     def start(self):
+        print('Welcome to ')
         exit = False
         while exit == False:
             sel = input("What would you like to do?")
+            self.menu()
             
             pass
             z = input("Would You Like To Continue?\n")
@@ -55,5 +60,6 @@ if __name__ == '__main__':
     engine = create_engine('sqlite:///thriddb.db')
     Session = sessionmaker(bind=engine)
     session = Session()
-    CLI(z)
+    user_input = input("Enter your name:")
+    CLI(user_input)
     time.sleep(5)
