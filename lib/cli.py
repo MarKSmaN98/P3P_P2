@@ -153,19 +153,31 @@ def make_review(self):
 
 
 def get_data(self):
-    print("Data Catalogue")
-    #sub menu
-    print("     1) Towns")
-    print('     2) Restaurants')
-    print('     3) Reviews')
-    sel = input("Select a Catalogue: ")
-    print('  ')
-    if sel == '1':
-        print_towns(self.towns)
-    elif sel == '2':
-        print_restaurants(self.restaurants)
-    elif sel == '3':
-        print_reviews(self.reviews)
+    os.system('cls' if os.name == 'nt' else 'clear')
+    sub_exit = False
+    while sub_exit == False:
+        print("Data Catalogue")
+        #sub menu
+        print("     1) Towns")
+        print('     2) Restaurants')
+        print('     3) Reviews')
+        print('     4) Exit')
+        sel = input("Select a Catalogue: ")
+        print('  ')
+        if sel == '1':
+            print_towns(self.towns)
+        elif sel == '2':
+            print_restaurants(self.restaurants)
+        elif sel == '3':
+            print_reviews(self.reviews)
+        elif sel == '4':
+            sub_exit = True
+            os.system('cls' if os.name == 'nt' else 'clear')
+        else:
+            print("invalid input!")
+            get_data(self)
+
+
 
 def print_towns(towns):
     count = 0
@@ -183,7 +195,6 @@ def print_towns(towns):
 
 def print_restaurants(restaurants):
     count = 0
-
     print('  ')
     print('**Restaurants**')
     print('  ')
