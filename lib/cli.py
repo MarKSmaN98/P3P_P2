@@ -1,7 +1,7 @@
 from db.models import *
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-import time, random
+import time, random, os
 
 
 
@@ -31,35 +31,57 @@ class CLI:
         print(' . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .')
         for _ in range(4):
             print('.                                                                    .')
-            time.sleep(1)
+            time.sleep(.5)
         print('\n')
         print("finish start")
-        self.demo()
+        self.start()
 
-    def menu():
+    def menu(self):
         print("1) ...")
-        print("1) ...")
-        print("1) ...")
-        print("1) ...")
-        print("1) ...")
+        print("2) ...")
+        print("3) ...")
+        print("4) ...")
+        print("5) Quit")
 
     def start(self):
         print('Welcome to ')
         exit = False
         while exit == False:
-            sel = input("What would you like to do?")
             self.menu()
-            
-            pass
-            z = input("Would You Like To Continue?\n")
-            if z == 'q' or z == 'Q':
+            sel = input("What would you like to do?")
+
+            if sel == 1:
+                pass
+
+            elif sel == 2:
+                pass
+
+            elif sel == 3:
+                pass
+
+            elif sel == 4:
+                pass
+
+            elif sel == 5:
                 exit = True
+            
+            else:
+                print("Invalid Input!")
+                print ("Restarting")
+                for _ in range(4):
+                    print('.', end=' ')
+                    time.sleep(.5)
+                print('\n')
+                os.system('cls' if os.name == 'nt' else 'clear')
+                self.init()
+            # z = input("Would You Like To Continue?\n")
+            # if z == 'q' or z == 'Q':
+            #     exit = True
 
 
 if __name__ == '__main__':
     engine = create_engine('sqlite:///thriddb.db')
     Session = sessionmaker(bind=engine)
     session = Session()
-    user_input = input("Enter your name:")
-    CLI(user_input)
+    CLI()
     time.sleep(5)
