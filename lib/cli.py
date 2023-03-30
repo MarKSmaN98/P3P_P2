@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from db.models import Town, Restaurant, Review
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker

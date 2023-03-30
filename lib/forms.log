@@ -1,0 +1,1258 @@
+DEBUG:asciimatics.widgets.layout:Updating: None
+DEBUG:asciimatics.widgets.layout:Updating: TA
+DEBUG:asciimatics.widgets.layout:Updating: TB
+DEBUG:asciimatics.widgets.layout:Updating: TC
+DEBUG:asciimatics.widgets.layout:Updating: TD
+DEBUG:asciimatics.widgets.layout:Updating: RO
+DEBUG:asciimatics.widgets.layout:Updating: None
+DEBUG:asciimatics.widgets.layout:Updating: None
+DEBUG:asciimatics.widgets.layout:Updating: Things
+DEBUG:asciimatics.widgets.layout:Updating: CA
+DEBUG:asciimatics.widgets.layout:Updating: CB
+DEBUG:asciimatics.widgets.layout:Updating: CC
+DEBUG:asciimatics.widgets.layout:Updating: DATE
+DEBUG:asciimatics.widgets.layout:Updating: TIME
+DEBUG:asciimatics.widgets.layout:Updating: PWD
+DEBUG:asciimatics.widgets.layout:Updating: DD
+DEBUG:asciimatics.widgets.layout:Updating: None
+DEBUG:asciimatics.widgets.layout:Updating: None
+DEBUG:asciimatics.widgets.layout:Updating: None
+DEBUG:asciimatics.widgets.layout:Updating: None
+DEBUG:asciimatics.widgets.layout:Updating: None
+DEBUG:asciimatics.widgets.layout:Updating: TA
+DEBUG:asciimatics.widgets.layout:Updating: TB
+DEBUG:asciimatics.widgets.layout:Updating: TC
+DEBUG:asciimatics.widgets.layout:Updating: TD
+DEBUG:asciimatics.widgets.layout:Updating: RO
+DEBUG:asciimatics.widgets.layout:Updating: None
+DEBUG:asciimatics.widgets.layout:Updating: None
+DEBUG:asciimatics.widgets.layout:Updating: Things
+DEBUG:asciimatics.widgets.layout:Updating: CA
+DEBUG:asciimatics.widgets.layout:Updating: CB
+DEBUG:asciimatics.widgets.layout:Updating: CC
+DEBUG:asciimatics.widgets.layout:Updating: DATE
+DEBUG:asciimatics.widgets.layout:Updating: TIME
+DEBUG:asciimatics.widgets.layout:Updating: PWD
+DEBUG:asciimatics.widgets.layout:Updating: DD
+DEBUG:asciimatics.widgets.layout:Updating: None
+DEBUG:asciimatics.widgets.layout:Blur: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0>
+DEBUG:asciimatics.widgets.layout:Updating: None
+DEBUG:asciimatics.widgets.layout:Updating: None
+DEBUG:asciimatics.widgets.layout:Updating: None
+DEBUG:asciimatics.widgets.layout:Blur: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0>
+DEBUG:asciimatics.widgets.layout:Focus: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0>
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (64, 6) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (64, 6) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 64, 6
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (64, 6) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (64, 6) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 64, 6
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (64, 6) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 64, 6
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (64, 6) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (64, 6) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 64, 6
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (64, 6) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (64, 6) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 64, 6
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (64, 6) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 64, 6
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (64, 6) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (64, 6) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 64, 6
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (64, 6) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (64, 6) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 64, 6
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (64, 6) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 64, 6
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (59, 3) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (59, 3) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 59, 3
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (59, 3) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (59, 3) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 59, 3
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (59, 3) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 59, 3
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (59, 3) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (59, 3) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 59, 3
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (59, 3) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (59, 3) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 59, 3
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (59, 3) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 59, 3
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (59, 3) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (59, 3) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 59, 3
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (59, 3) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (59, 3) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 59, 3
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (59, 3) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 59, 3
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Focus: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0>
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: a
+DEBUG:asciimatics.screen:Returning key: a
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: 10
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: 10
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: a
+DEBUG:asciimatics.screen:Returning key: a
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: 10
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: 10
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 107
+DEBUG:asciimatics.screen:Returning key: 107
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -300
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -300
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: 107
+DEBUG:asciimatics.screen:Returning key: 107
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -300
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -300
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.screen:Processing key: a
+DEBUG:asciimatics.screen:Returning key: a
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: 10
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: 10
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (50, 7) 1
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (50, 7) 1
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.textbox.TextBox object at 0x7f45ad6d8af0> (8, 2) (130, 5)
+DEBUG:asciimatics.widgets.layout:Check layout: 50, 7
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.label.Label object at 0x7f45ad8cecf0> (8, 1) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.textbox.TextBox object at 0x7f45ad6d8af0> (8, 2) (130, 5)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7240> (8, 7) (130, 1)
+DEBUG:asciimatics.widgets.layout:Blur: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0>
+DEBUG:asciimatics.widgets.layout:Focus: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0>
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7240> (8, 7) (130, 1)
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (56, 7) 1
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (56, 7) 1
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7240> (8, 7) (130, 1)
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (59, 7) 1
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (59, 7) 1
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7240> (8, 7) (130, 1)
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (53, 7) 1
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (53, 7) 1
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7240> (8, 7) (130, 1)
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (44, 8) 1
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (44, 8) 1
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7240> (8, 7) (130, 1)
+DEBUG:asciimatics.widgets.layout:Check layout: 44, 8
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.label.Label object at 0x7f45ad8cecf0> (8, 1) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.textbox.TextBox object at 0x7f45ad6d8af0> (8, 2) (130, 5)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7240> (8, 7) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7440> (8, 8) (40, 1)
+DEBUG:asciimatics.widgets.layout:Blur: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0>
+DEBUG:asciimatics.widgets.layout:Focus: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0>
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7440> (8, 8) (40, 1)
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (46, 7) 1
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (46, 7) 1
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7440> (8, 8) (40, 1)
+DEBUG:asciimatics.widgets.layout:Check layout: 46, 7
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.label.Label object at 0x7f45ad8cecf0> (8, 1) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.textbox.TextBox object at 0x7f45ad6d8af0> (8, 2) (130, 5)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7240> (8, 7) (130, 1)
+DEBUG:asciimatics.widgets.layout:Blur: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0>
+DEBUG:asciimatics.widgets.layout:Focus: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0>
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7240> (8, 7) (130, 1)
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (15, 2) 1
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (15, 2) 1
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7240> (8, 7) (130, 1)
+DEBUG:asciimatics.widgets.layout:Check layout: 15, 2
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.label.Label object at 0x7f45ad8cecf0> (8, 1) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.textbox.TextBox object at 0x7f45ad6d8af0> (8, 2) (130, 5)
+DEBUG:asciimatics.widgets.layout:Blur: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0>
+DEBUG:asciimatics.widgets.layout:Focus: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0>
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.textbox.TextBox object at 0x7f45ad6d8af0> (8, 2) (130, 5)
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (12, 1) 1
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (12, 1) 1
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.textbox.TextBox object at 0x7f45ad6d8af0> (8, 2) (130, 5)
+DEBUG:asciimatics.widgets.layout:Check layout: 12, 1
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.label.Label object at 0x7f45ad8cecf0> (8, 1) (130, 1)
+DEBUG:asciimatics.widgets.layout:Blur: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0>
+DEBUG:asciimatics.widgets.layout:Focus: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0>
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (146, 2) 1
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (146, 2) 1
+DEBUG:asciimatics.widgets.layout:Check layout: 146, 2
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.label.Label object at 0x7f45ad8cecf0> (8, 1) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.textbox.TextBox object at 0x7f45ad6d8af0> (8, 2) (130, 5)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7240> (8, 7) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7440> (8, 8) (40, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7540> (8, 9) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7640> (8, 10) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.divider.Divider object at 0x7f45ad8cef60> (8, 11) (130, 2)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.label.Label object at 0x7f45ad8cf030> (8, 13) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.radiobuttons.RadioButtons object at 0x7f45ad6f8c80> (8, 14) (130, 3)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.checkbox.CheckBox object at 0x7f45ad8cf100> (8, 17) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.checkbox.CheckBox object at 0x7f45ad8cf1d0> (8, 18) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.checkbox.CheckBox object at 0x7f45ad8cf2a0> (8, 19) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.datepicker.DatePicker object at 0x7f45ad6f8d60> (8, 20) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.timepicker.TimePicker object at 0x7f45ad6f8e40> (8, 21) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7740> (8, 22) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.dropdownlist.DropdownList object at 0x7f45add05b70> (8, 23) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.divider.Divider object at 0x7f45ad8cf370> (8, 24) (130, 3)
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (146, 2) 1
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (146, 2) 1
+DEBUG:asciimatics.widgets.layout:Check layout: 146, 2
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.label.Label object at 0x7f45ad8cecf0> (8, 1) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.textbox.TextBox object at 0x7f45ad6d8af0> (8, 2) (130, 5)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7240> (8, 7) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7440> (8, 8) (40, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7540> (8, 9) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7640> (8, 10) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.divider.Divider object at 0x7f45ad8cef60> (8, 11) (130, 2)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.label.Label object at 0x7f45ad8cf030> (8, 13) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.radiobuttons.RadioButtons object at 0x7f45ad6f8c80> (8, 14) (130, 3)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.checkbox.CheckBox object at 0x7f45ad8cf100> (8, 17) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.checkbox.CheckBox object at 0x7f45ad8cf1d0> (8, 18) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.checkbox.CheckBox object at 0x7f45ad8cf2a0> (8, 19) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.datepicker.DatePicker object at 0x7f45ad6f8d60> (8, 20) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.timepicker.TimePicker object at 0x7f45ad6f8e40> (8, 21) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7740> (8, 22) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.dropdownlist.DropdownList object at 0x7f45add05b70> (8, 23) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.divider.Divider object at 0x7f45ad8cf370> (8, 24) (130, 3)
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (146, 2) 1
+DEBUG:asciimatics.widgets.layout:Check layout: 146, 2
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.button.Button object at 0x7f45ad6f8ba0> (20, 27) (9, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.button.Button object at 0x7f45ad6f8f20> (66, 27) (13, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.button.Button object at 0x7f45ad6f9000> (117, 27) (8, 1)
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (146, 3) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (146, 3) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 146, 3
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (146, 3) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (146, 3) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 146, 3
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (146, 3) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 146, 3
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (146, 2) 1
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (146, 2) 1
+DEBUG:asciimatics.widgets.layout:Check layout: 146, 2
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.label.Label object at 0x7f45ad8cecf0> (8, 1) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.textbox.TextBox object at 0x7f45ad6d8af0> (8, 2) (130, 5)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7240> (8, 7) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7440> (8, 8) (40, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7540> (8, 9) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7640> (8, 10) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.divider.Divider object at 0x7f45ad8cef60> (8, 11) (130, 2)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.label.Label object at 0x7f45ad8cf030> (8, 13) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.radiobuttons.RadioButtons object at 0x7f45ad6f8c80> (8, 14) (130, 3)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.checkbox.CheckBox object at 0x7f45ad8cf100> (8, 17) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.checkbox.CheckBox object at 0x7f45ad8cf1d0> (8, 18) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.checkbox.CheckBox object at 0x7f45ad8cf2a0> (8, 19) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.datepicker.DatePicker object at 0x7f45ad6f8d60> (8, 20) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.timepicker.TimePicker object at 0x7f45ad6f8e40> (8, 21) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7740> (8, 22) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.dropdownlist.DropdownList object at 0x7f45add05b70> (8, 23) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.divider.Divider object at 0x7f45ad8cf370> (8, 24) (130, 3)
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (146, 2) 1
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (146, 2) 1
+DEBUG:asciimatics.widgets.layout:Check layout: 146, 2
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.label.Label object at 0x7f45ad8cecf0> (8, 1) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.textbox.TextBox object at 0x7f45ad6d8af0> (8, 2) (130, 5)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7240> (8, 7) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7440> (8, 8) (40, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7540> (8, 9) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7640> (8, 10) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.divider.Divider object at 0x7f45ad8cef60> (8, 11) (130, 2)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.label.Label object at 0x7f45ad8cf030> (8, 13) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.radiobuttons.RadioButtons object at 0x7f45ad6f8c80> (8, 14) (130, 3)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.checkbox.CheckBox object at 0x7f45ad8cf100> (8, 17) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.checkbox.CheckBox object at 0x7f45ad8cf1d0> (8, 18) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.checkbox.CheckBox object at 0x7f45ad8cf2a0> (8, 19) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.datepicker.DatePicker object at 0x7f45ad6f8d60> (8, 20) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.timepicker.TimePicker object at 0x7f45ad6f8e40> (8, 21) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7740> (8, 22) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.dropdownlist.DropdownList object at 0x7f45add05b70> (8, 23) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.divider.Divider object at 0x7f45ad8cf370> (8, 24) (130, 3)
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (146, 2) 1
+DEBUG:asciimatics.widgets.layout:Check layout: 146, 2
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.button.Button object at 0x7f45ad6f8ba0> (20, 27) (9, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.button.Button object at 0x7f45ad6f8f20> (66, 27) (13, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.button.Button object at 0x7f45ad6f9000> (117, 27) (8, 1)
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (146, 4) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (146, 4) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 146, 4
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (146, 4) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (146, 4) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 146, 4
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (146, 4) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 146, 4
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (146, 4) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (146, 4) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 146, 4
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (146, 4) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (146, 4) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 146, 4
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (146, 4) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 146, 4
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (146, 4) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (146, 4) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 146, 4
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (146, 4) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (146, 4) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 146, 4
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (146, 4) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 146, 4
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (146, 4) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (146, 4) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 146, 4
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (146, 4) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (146, 4) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 146, 4
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (146, 4) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 146, 4
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (146, 4) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (146, 4) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 146, 4
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (146, 4) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (146, 4) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 146, 4
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (146, 4) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 146, 4
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (146, 4) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (146, 4) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 146, 4
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (146, 4) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (146, 4) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 146, 4
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (146, 4) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 146, 4
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (142, 3) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (142, 3) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 142, 3
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (142, 3) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (142, 3) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 142, 3
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (142, 3) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 142, 3
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (141, 3) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (141, 3) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 141, 3
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (141, 3) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (141, 3) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 141, 3
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (141, 3) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 141, 3
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (141, 3) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (141, 3) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 141, 3
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (141, 3) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (141, 3) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 141, 3
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (141, 3) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 141, 3
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (141, 3) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (141, 3) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 141, 3
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (141, 3) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (141, 3) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 141, 3
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (141, 3) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 141, 3
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (139, 3) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (139, 3) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 139, 3
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (139, 3) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (139, 3) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 139, 3
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (139, 3) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 139, 3
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (101, 6) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (101, 6) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 101, 6
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (101, 6) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (101, 6) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 101, 6
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (101, 6) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 101, 6
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (90, 6) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (90, 6) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 90, 6
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (90, 6) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (90, 6) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 90, 6
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (90, 6) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 90, 6
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (83, 7) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (83, 7) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 83, 7
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (83, 7) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (83, 7) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 83, 7
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (83, 7) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 83, 7
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (75, 7) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (75, 7) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 75, 7
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (75, 7) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (75, 7) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 75, 7
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (75, 7) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 75, 7
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (66, 7) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (66, 7) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 66, 7
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (66, 7) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (66, 7) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 66, 7
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (66, 7) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 66, 7
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (53, 4) 1
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (53, 4) 1
+DEBUG:asciimatics.widgets.layout:Check layout: 53, 4
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.label.Label object at 0x7f45ad8cecf0> (8, 1) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.textbox.TextBox object at 0x7f45ad6d8af0> (8, 2) (130, 5)
+DEBUG:asciimatics.widgets.layout:Blur: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0>
+DEBUG:asciimatics.widgets.layout:Focus: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0>
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.textbox.TextBox object at 0x7f45ad6d8af0> (8, 2) (130, 5)
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (146, 2) 1
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (146, 2) 1
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.textbox.TextBox object at 0x7f45ad6d8af0> (8, 2) (130, 5)
+DEBUG:asciimatics.widgets.layout:Check layout: 146, 2
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.label.Label object at 0x7f45ad8cecf0> (8, 1) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.textbox.TextBox object at 0x7f45ad6d8af0> (8, 2) (130, 5)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7240> (8, 7) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7440> (8, 8) (40, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7540> (8, 9) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7640> (8, 10) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.divider.Divider object at 0x7f45ad8cef60> (8, 11) (130, 2)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.label.Label object at 0x7f45ad8cf030> (8, 13) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.radiobuttons.RadioButtons object at 0x7f45ad6f8c80> (8, 14) (130, 3)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.checkbox.CheckBox object at 0x7f45ad8cf100> (8, 17) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.checkbox.CheckBox object at 0x7f45ad8cf1d0> (8, 18) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.checkbox.CheckBox object at 0x7f45ad8cf2a0> (8, 19) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.datepicker.DatePicker object at 0x7f45ad6f8d60> (8, 20) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.timepicker.TimePicker object at 0x7f45ad6f8e40> (8, 21) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7740> (8, 22) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.dropdownlist.DropdownList object at 0x7f45add05b70> (8, 23) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.divider.Divider object at 0x7f45ad8cf370> (8, 24) (130, 3)
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (146, 2) 1
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (146, 2) 1
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.textbox.TextBox object at 0x7f45ad6d8af0> (8, 2) (130, 5)
+DEBUG:asciimatics.widgets.layout:Check layout: 146, 2
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.label.Label object at 0x7f45ad8cecf0> (8, 1) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.textbox.TextBox object at 0x7f45ad6d8af0> (8, 2) (130, 5)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7240> (8, 7) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7440> (8, 8) (40, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7540> (8, 9) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7640> (8, 10) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.divider.Divider object at 0x7f45ad8cef60> (8, 11) (130, 2)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.label.Label object at 0x7f45ad8cf030> (8, 13) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.radiobuttons.RadioButtons object at 0x7f45ad6f8c80> (8, 14) (130, 3)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.checkbox.CheckBox object at 0x7f45ad8cf100> (8, 17) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.checkbox.CheckBox object at 0x7f45ad8cf1d0> (8, 18) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.checkbox.CheckBox object at 0x7f45ad8cf2a0> (8, 19) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.datepicker.DatePicker object at 0x7f45ad6f8d60> (8, 20) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.timepicker.TimePicker object at 0x7f45ad6f8e40> (8, 21) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7740> (8, 22) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.dropdownlist.DropdownList object at 0x7f45add05b70> (8, 23) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.divider.Divider object at 0x7f45ad8cf370> (8, 24) (130, 3)
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (146, 2) 1
+DEBUG:asciimatics.widgets.layout:Check layout: 146, 2
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.button.Button object at 0x7f45ad6f8ba0> (20, 27) (9, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.button.Button object at 0x7f45ad6f8f20> (66, 27) (13, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.button.Button object at 0x7f45ad6f9000> (117, 27) (8, 1)
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (143, 5) 0
+DEBUG:asciimatics.widgets.layout:Check layout: 143, 5
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (51, 8) 1
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (51, 8) 1
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.textbox.TextBox object at 0x7f45ad6d8af0> (8, 2) (130, 5)
+DEBUG:asciimatics.widgets.layout:Check layout: 51, 8
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.label.Label object at 0x7f45ad8cecf0> (8, 1) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.textbox.TextBox object at 0x7f45ad6d8af0> (8, 2) (130, 5)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7240> (8, 7) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7440> (8, 8) (40, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7540> (8, 9) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7640> (8, 10) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.divider.Divider object at 0x7f45ad8cef60> (8, 11) (130, 2)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.label.Label object at 0x7f45ad8cf030> (8, 13) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.radiobuttons.RadioButtons object at 0x7f45ad6f8c80> (8, 14) (130, 3)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.checkbox.CheckBox object at 0x7f45ad8cf100> (8, 17) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.checkbox.CheckBox object at 0x7f45ad8cf1d0> (8, 18) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.checkbox.CheckBox object at 0x7f45ad8cf2a0> (8, 19) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.datepicker.DatePicker object at 0x7f45ad6f8d60> (8, 20) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.timepicker.TimePicker object at 0x7f45ad6f8e40> (8, 21) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7740> (8, 22) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.dropdownlist.DropdownList object at 0x7f45add05b70> (8, 23) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.divider.Divider object at 0x7f45ad8cf370> (8, 24) (130, 3)
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (51, 8) 1
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (51, 8) 1
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.textbox.TextBox object at 0x7f45ad6d8af0> (8, 2) (130, 5)
+DEBUG:asciimatics.widgets.layout:Check layout: 51, 8
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.label.Label object at 0x7f45ad8cecf0> (8, 1) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.textbox.TextBox object at 0x7f45ad6d8af0> (8, 2) (130, 5)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7240> (8, 7) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7440> (8, 8) (40, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7540> (8, 9) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7640> (8, 10) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.divider.Divider object at 0x7f45ad8cef60> (8, 11) (130, 2)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.label.Label object at 0x7f45ad8cf030> (8, 13) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.radiobuttons.RadioButtons object at 0x7f45ad6f8c80> (8, 14) (130, 3)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.checkbox.CheckBox object at 0x7f45ad8cf100> (8, 17) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.checkbox.CheckBox object at 0x7f45ad8cf1d0> (8, 18) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.checkbox.CheckBox object at 0x7f45ad8cf2a0> (8, 19) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.datepicker.DatePicker object at 0x7f45ad6f8d60> (8, 20) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.timepicker.TimePicker object at 0x7f45ad6f8e40> (8, 21) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7740> (8, 22) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.dropdownlist.DropdownList object at 0x7f45add05b70> (8, 23) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.divider.Divider object at 0x7f45ad8cf370> (8, 24) (130, 3)
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (51, 8) 1
+DEBUG:asciimatics.widgets.layout:Check layout: 51, 8
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.button.Button object at 0x7f45ad6f8ba0> (20, 27) (9, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.button.Button object at 0x7f45ad6f8f20> (66, 27) (13, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.button.Button object at 0x7f45ad6f9000> (117, 27) (8, 1)
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (44, 8) 1
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (44, 8) 1
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.textbox.TextBox object at 0x7f45ad6d8af0> (8, 2) (130, 5)
+DEBUG:asciimatics.widgets.layout:Check layout: 44, 8
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.label.Label object at 0x7f45ad8cecf0> (8, 1) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.textbox.TextBox object at 0x7f45ad6d8af0> (8, 2) (130, 5)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7240> (8, 7) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7440> (8, 8) (40, 1)
+DEBUG:asciimatics.widgets.layout:Blur: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0>
+DEBUG:asciimatics.widgets.layout:Focus: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0>
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7440> (8, 8) (40, 1)
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (53, 9) 1
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (53, 9) 1
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.radiobuttons.RadioButtons object at 0x7f45ad6f8c80> (8, 14) (130, 3)
+DEBUG:asciimatics.widgets.layout:Check layout: 53, 9
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.label.Label object at 0x7f45ad8cecf0> (8, 1) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.textbox.TextBox object at 0x7f45ad6d8af0> (8, 2) (130, 5)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7240> (8, 7) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7440> (8, 8) (40, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7540> (8, 9) (130, 1)
+DEBUG:asciimatics.widgets.layout:Blur: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0>
+DEBUG:asciimatics.widgets.layout:Focus: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0>
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7540> (8, 9) (130, 1)
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.screen:Processing key: 103
+DEBUG:asciimatics.screen:Returning key: 103
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -204
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -204
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.screen:Processing key: 102
+DEBUG:asciimatics.screen:Returning key: 102
+DEBUG:asciimatics.widgets.frame:New event: KeyboardEvent: -206
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> KeyboardEvent: -206
+DEBUG:asciimatics.widgets.frame:Current widget left event: None
+DEBUG:asciimatics.widgets.frame:New event: MouseEvent (161, 13) 1
+DEBUG:asciimatics.widgets.layout:Blur: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0>
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (161, 13) 1
+DEBUG:asciimatics.widgets.layout:Check layout: 161, 13
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.label.Label object at 0x7f45ad8cecf0> (8, 1) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.textbox.TextBox object at 0x7f45ad6d8af0> (8, 2) (130, 5)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7240> (8, 7) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7440> (8, 8) (40, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7540> (8, 9) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7640> (8, 10) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.divider.Divider object at 0x7f45ad8cef60> (8, 11) (130, 2)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.label.Label object at 0x7f45ad8cf030> (8, 13) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.radiobuttons.RadioButtons object at 0x7f45ad6f8c80> (8, 14) (130, 3)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.checkbox.CheckBox object at 0x7f45ad8cf100> (8, 17) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.checkbox.CheckBox object at 0x7f45ad8cf1d0> (8, 18) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.checkbox.CheckBox object at 0x7f45ad8cf2a0> (8, 19) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.datepicker.DatePicker object at 0x7f45ad6f8d60> (8, 20) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.timepicker.TimePicker object at 0x7f45ad6f8e40> (8, 21) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7740> (8, 22) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.dropdownlist.DropdownList object at 0x7f45add05b70> (8, 23) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.divider.Divider object at 0x7f45ad8cf370> (8, 24) (130, 3)
+DEBUG:asciimatics.widgets.frame:Current widget left event: MouseEvent (161, 13) 1
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de3e0> MouseEvent (161, 13) 1
+DEBUG:asciimatics.widgets.layout:Check layout: 161, 13
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.label.Label object at 0x7f45ad8cecf0> (8, 1) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.textbox.TextBox object at 0x7f45ad6d8af0> (8, 2) (130, 5)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7240> (8, 7) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7440> (8, 8) (40, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7540> (8, 9) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7640> (8, 10) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.divider.Divider object at 0x7f45ad8cef60> (8, 11) (130, 2)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.label.Label object at 0x7f45ad8cf030> (8, 13) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.radiobuttons.RadioButtons object at 0x7f45ad6f8c80> (8, 14) (130, 3)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.checkbox.CheckBox object at 0x7f45ad8cf100> (8, 17) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.checkbox.CheckBox object at 0x7f45ad8cf1d0> (8, 18) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.checkbox.CheckBox object at 0x7f45ad8cf2a0> (8, 19) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.datepicker.DatePicker object at 0x7f45ad6f8d60> (8, 20) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.timepicker.TimePicker object at 0x7f45ad6f8e40> (8, 21) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.text.Text object at 0x7f45ad9b7740> (8, 22) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.dropdownlist.DropdownList object at 0x7f45add05b70> (8, 23) (130, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.divider.Divider object at 0x7f45ad8cf370> (8, 24) (130, 3)
+DEBUG:asciimatics.widgets.layout:Layout event: <asciimatics.widgets.layout.Layout object at 0x7f45ad6de4a0> MouseEvent (161, 13) 1
+DEBUG:asciimatics.widgets.layout:Check layout: 161, 13
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.button.Button object at 0x7f45ad6f8ba0> (20, 27) (9, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.button.Button object at 0x7f45ad6f8f20> (66, 27) (13, 1)
+DEBUG:asciimatics.widgets.widget:Widget: <asciimatics.widgets.button.Button object at 0x7f45ad6f9000> (117, 27) (8, 1)
+DEBUG:asciimatics.widgets.layout:Updating: None
+DEBUG:asciimatics.widgets.layout:Updating: TA
+DEBUG:asciimatics.widgets.layout:Updating: TB
+DEBUG:asciimatics.widgets.layout:Updating: TC
+DEBUG:asciimatics.widgets.layout:Updating: TD
+DEBUG:asciimatics.widgets.layout:Updating: RO
+DEBUG:asciimatics.widgets.layout:Updating: None
+DEBUG:asciimatics.widgets.layout:Updating: None
+DEBUG:asciimatics.widgets.layout:Updating: Things
+DEBUG:asciimatics.widgets.layout:Updating: CA
+DEBUG:asciimatics.widgets.layout:Updating: CB
+DEBUG:asciimatics.widgets.layout:Updating: CC
+DEBUG:asciimatics.widgets.layout:Updating: DATE
+DEBUG:asciimatics.widgets.layout:Updating: TIME
+DEBUG:asciimatics.widgets.layout:Updating: PWD
+DEBUG:asciimatics.widgets.layout:Updating: DD
+DEBUG:asciimatics.widgets.layout:Updating: None
+DEBUG:asciimatics.widgets.layout:Updating: None
+DEBUG:asciimatics.widgets.layout:Updating: None
+DEBUG:asciimatics.widgets.layout:Updating: None
+DEBUG:asciimatics.widgets.layout:Updating: None
+DEBUG:asciimatics.widgets.layout:Updating: TA
+DEBUG:asciimatics.widgets.layout:Updating: TB
+DEBUG:asciimatics.widgets.layout:Updating: TC
+DEBUG:asciimatics.widgets.layout:Updating: TD
+DEBUG:asciimatics.widgets.layout:Updating: RO
+DEBUG:asciimatics.widgets.layout:Updating: None
+DEBUG:asciimatics.widgets.layout:Updating: None
+DEBUG:asciimatics.widgets.layout:Updating: Things
+DEBUG:asciimatics.widgets.layout:Updating: CA
+DEBUG:asciimatics.widgets.layout:Updating: CB
+DEBUG:asciimatics.widgets.layout:Updating: CC
+DEBUG:asciimatics.widgets.layout:Updating: DATE
+DEBUG:asciimatics.widgets.layout:Updating: TIME
+DEBUG:asciimatics.widgets.layout:Updating: PWD
+DEBUG:asciimatics.widgets.layout:Updating: DD
+DEBUG:asciimatics.widgets.layout:Updating: None
+DEBUG:asciimatics.widgets.layout:Blur: <asciimatics.widgets.layout.Layout object at 0x7fbf12ad23e0>
+DEBUG:asciimatics.widgets.layout:Updating: None
+DEBUG:asciimatics.widgets.layout:Updating: None
+DEBUG:asciimatics.widgets.layout:Updating: None
+DEBUG:asciimatics.widgets.layout:Blur: <asciimatics.widgets.layout.Layout object at 0x7fbf12ad24a0>
+DEBUG:asciimatics.widgets.layout:Focus: <asciimatics.widgets.layout.Layout object at 0x7fbf12ad23e0>
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
+DEBUG:asciimatics.widgets.textbox:Cursor: 0,0
