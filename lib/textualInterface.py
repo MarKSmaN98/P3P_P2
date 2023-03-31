@@ -292,7 +292,7 @@ class AddPage(Screen):
         towns = CLI.model.towns
         t_t.add_columns("ID", "Town Name", "State", f"Length: {len(towns)}")
         for town in towns:
-            t_t.add_row(town.id, town.name, town.id)
+            t_t.add_row(town.id, town.name, town.state)
         self.add_table(t_t)
 
     def pop_rest(self):
