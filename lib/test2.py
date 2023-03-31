@@ -19,10 +19,9 @@ class Model(object):
         return(self.all)
     
     def get_towns(self):
-        return_list = []
-        for town in self.towns:
-            return_list.append(town.name)
-        return return_list
+        ret = session.query(Town)
+        print(return_list)
+        return [return_list]
 
 
 
@@ -84,18 +83,18 @@ class RetrieveScreen(Frame):
                                           title="Retrieve Data",
                                           reduce_cpu=True)
         self.database = database
-        # self._list_view = ListBox(
-        #     Widget.FILL_FRAME,
-        #     database.get_towns(),
-        #     name="towns",
-        #     add_scroll_bar=True,
-        #     on_change=self._ok,
-        #     on_select=self._ok
-        # )
+        self._list_view = ListBox(
+            Widget.FILL_FRAME,
+            database.get_towns(),
+            name="towns",
+            add_scroll_bar=True,
+            on_change=self._ok,
+            on_select=self._ok
+        )
         self.mainlay = Layout([1], fill_frame=True)
         self.add_layout(self.mainlay)
         self.mainlay.add_widget(Divider(height=3))
-        # self.mainlay.add_widget(self._list_view)
+        self.mainlay.add_widget(self._list_view)
         buttonlay = Layout([1,1,1,1])
         self.add_layout(buttonlay)
         buttonlay.add_widget(Button("Retrieve Town Data", self._town_data),0)

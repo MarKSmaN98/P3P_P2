@@ -1,0 +1,36 @@
+CLI {
+    layout: horizontal;
+}
+
+MainWidget {
+    text-opacity: 60%;
+    align: center middle
+}
+
+#username {
+    width:40;
+}
+
+#submit {
+    width: 16;
+}
+
+SecondPage {
+    align: center middle;
+}
+
+MainOptionWidget {
+    layout:horizontal;
+    align: center middle;
+}
+
+#welcome {
+    margin-left: 10;
+}
+
+MainOptionWidget * {
+    margin-top: 5;
+    margin-left: 5;
+    margin-right: 5;
+
+}
