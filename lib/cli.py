@@ -57,15 +57,55 @@ class CLI:
             elif sel == '3':
                 add_data(self)
 
-
             elif sel == '4':
                 exit = True
+
+            elif sel == '5':
+                for _ in range(30):
+                    self.anim()
+                    self.anim2()
             
             else:
                 print("Invalid Input! Restarting Main Menu...")
                 time.sleep(1)
                 os.system('cls' if os.name == 'nt' else 'clear')
         printer(self.name)
+
+    def anim(self):
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print('*    *  ()   *   *')
+        print('*     * /\         *')
+        print('   *   /i\\    *  *')
+        print(' *     o/\\  *      *')
+        print('*     ///\i\    *')
+        print('  *   /*/o\\  *    *')
+        print('*    /i//\*\      *')
+        print('     /o/*\\i\   *')
+        print('*   //i//o\\\\     *')
+        print(' * /*////\\\\i\*')
+        print('*  //o//i\\*\\\   *')
+        print('* /i///*/\\\\\o\   *')
+        print('*   *   ||     * ')
+        time.sleep(.5)
+
+    def anim2(self):
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print('   *   ( x )    *       ')
+        print('*       /\         *  ')
+        print('      */o\\    *  *   ')
+        print('   *   i*\\      *    ')
+        print(' *    ///\o\ *      * ')
+        print('*     ///i\\    *     ')
+        print('  *  /o//\*\  *    *  ')
+        print('*    /i//\\o\     *   ')
+        print('    //o//i\\\\  *     ')
+        print('*  ///*//\*\\o\    *  ')
+        print(' * //i//i\\*\\\*      ')
+        print('  /i///*/\\\\\i\  *   ')
+        print(' *      ||         *  ')
+        time.sleep(.5)
+            
+
 def add_data(self):
     os.system('cls' if os.name == 'nt' else 'clear')
     while True:
@@ -184,6 +224,8 @@ def get_data(self):
             print("invalid input!")
             time.sleep(1)
             os.system('cls' if os.name == 'nt' else 'clear')
+
+
 
 
 
