@@ -43,14 +43,18 @@ class LoginPage(Screen):
 class MainPage(Screen):
     """Test Page"""
 
-    BINDINGS=[('q', "pop_screen()", "Log Out")]
+    BINDINGS=[('q', "pop_screen()", "Log Out"), ('z', "ret()", "Raw Data"), ('x', "rel()", "Relative Data"), ('c', "add", "Add Data")]
 
 
     def compose(self):
         yield Header(show_clock=True)
         yield Footer()
-        yield Static(f"Welcome, {self.get_name()}", id="welcome")
-        yield MainOptionWidget()
+        with Container():
+            yield Static(f"Welcome, {self.get_name()}", id="welcome")
+        with Horizontal():
+            yield Button("Retrieve Data Lists", id="dataButton")
+            yield Button("View Relationship", id="relationButton")
+            yield Button("Add Data", id="addButton")
     def on_load(self):
         self.query_one("#welcome").update()
     def get_name(self):
@@ -60,15 +64,6 @@ class MainPage(Screen):
         else: 
             return "Guest"
         
-
-
-class MainOptionWidget(Static):
-    
-    def compose(self):
-        yield Button("Retrieve Data Lists", id="dataButton")
-        yield Button("View Relationship", id="relationButton")
-        yield Button("Add Data", id="addButton")
-
     def on_button_pressed(self, event:Button.Pressed):
         if event.button.id == "dataButton":
             app.push_screen('Retrieve')
@@ -76,6 +71,16 @@ class MainOptionWidget(Static):
             app.push_screen("Relative")
         elif event.button.id == "addButton":
             app.push_screen("Add")
+
+    def action_ret(self):
+        app.push_screen('Retrieve')
+    def action_rel(self):
+        app.push_screen("Relative")
+    def action_add(self):
+        app.push_screen("Add")
+        
+
+    
 
 class RetrievePage(Screen):
 
@@ -159,7 +164,7 @@ class RelativePage(Screen):
 class AddPage(Screen):
     """Add"""
 
-    BINDINGS=[('q', "pop_screen()", "Go Back")]
+    BINDINGS=[('q', "pop_screen()", "Go Back"),('t', 'add_town()', "Add Town"),('r', 'add_rest()', "Add Restaurant"),('v', 'add_rev()', "Add Review")]
 
 
     def compose(self):
@@ -226,6 +231,13 @@ class AddPage(Screen):
         session.add(rev)
         session.commit()
         CLI.model.reviews.append(rev)
+
+    def action_add_town(self):
+        self.query_one("#switcher").current="town"
+    def action_add_rest(self):
+        self.query_one("#switcher").current="rest"
+    def action_add_rev(self):
+        self.query_one("#switcher").current="rev"
         
 
 

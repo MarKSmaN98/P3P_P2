@@ -2,9 +2,24 @@ CLI {
     layout: horizontal;
 }
 
-MainWidget {
+MainPage {
     text-opacity: 60%;
     align: center middle
+}
+
+MainPage Horizontal {
+    align: center middle
+}
+
+MainPage Container {
+    align: center top;
+    margin-left: 83;
+    margin-top: 2;
+}
+
+MainPage Horizontal * {
+    margin-left: 2;
+    margin-right: 2;
 }
 
 #username {
