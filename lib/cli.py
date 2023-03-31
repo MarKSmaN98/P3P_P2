@@ -254,9 +254,9 @@ def start_rel_viewer(self):
     sub_exit = False
     while sub_exit == False:
         print("....Relationship Viewer....\n\n")
-        print("Town to Restauraunt")
-        print("Restaurant to Review")
-        print("Exit")
+        print("     1) Town to Restauraunt")
+        print("     2) Restaurant to Review")
+        print("     3) Exit")
 
         sel = input("Select an Option: ")
 
