@@ -38,7 +38,17 @@ class LoginPage(Screen):
     def compose(self):
         yield Header(show_clock=True)
         yield Footer()
-        yield LoginWidget()
+        yield Input(placeholder="Username", id="username")
+        yield Button("Log In", id="submit", variant="success")
+
+    def on_button_pressed(self, event:Button.Pressed) -> None:
+        inp = self.query_one('#username').value
+        self.set_name(inp)
+        self.app.push_screen("Menu")
+    
+    def set_name(self, name):
+        CLI.data["username"] = name
+
 
 class MainPage(Screen):
     """Test Page"""
@@ -47,16 +57,15 @@ class MainPage(Screen):
 
 
     def compose(self):
+        name = self.get_name()
         yield Header(show_clock=True)
         yield Footer()
         with Container():
-            yield Static(f"Welcome, {self.get_name()}", id="welcome")
+            yield Static(f"Welcome, {name}", id="welcome", classes="title")
         with Horizontal():
             yield Button("Retrieve Data Lists", id="dataButton")
             yield Button("View Relationship", id="relationButton")
             yield Button("Add Data", id="addButton")
-    def on_load(self):
-        self.query_one("#welcome").update()
     def get_name(self):
         name = CLI.data["username"]
         if len(name) > 0:
@@ -89,6 +98,7 @@ class RetrievePage(Screen):
     def compose(self):
         yield Header(show_clock=True)
         yield Footer()
+        yield Static("Raw Data Page", classes="title")
         with Container(id="buttons"):
             yield Button("Raw Towns", id="town")
             yield Button("Raw Restaurants", id="rest")
@@ -139,6 +149,7 @@ class RelativePage(Screen):
     def compose(self):
         yield Header(show_clock=True)
         yield Footer()
+        yield Static("View Relations", classes="title")
         with Container(id='buttons'):
             yield Button("View Restaurants in Towns", id='one')
             yield Button ("View Reviews for Restaurants", id='two')
@@ -191,6 +202,7 @@ class AddPage(Screen):
     def compose(self):
         yield Header(show_clock=True)
         yield Footer()
+        yield Static("Add Data Page", classes="title")
         yield Container(id="listswitch")
         yield DataTable(id="listview")
         with Horizontal(id="buttons"):
@@ -314,30 +326,18 @@ class AddPage(Screen):
         self.pop_rest()
 
     #END HOT KEY ACTIONS
-        
 
+class AboutPage(Screen):
 
+    BINDINGS=[('q', "pop_screen()", "Go Back")]
 
+    def compose(self):
+        yield Header(show_clock=True)
+        yield Footer()
+        yield Static("Raymond An")
+        yield Static("Mark Coats")
+        yield Static("Kyle O'Neill")
 
-
-class LoginWidget(Static):
-    """Login Widget"""
-
-    nameBool = False
-
-    def compose(self) -> ComposeResult:
-        """Create child widgets"""
-        yield Input(placeholder="Username", id="username")
-        yield Button("Log In", id="submit", variant="success")
-        yield Container(id="temp")
-
-    def on_button_pressed(self, event:Button.Pressed) -> None:
-        inp = self.query_one('#username').value
-        self.set_name(inp)
-        self.app.push_screen("Menu")
-    
-    def set_name(self, name):
-        CLI.data["username"] = name
 
 
 class CLI(App):
@@ -349,8 +349,8 @@ class CLI(App):
     model = Model()
 
     CSS_PATH="cli.css"
-    SCREENS= {"Login": LoginPage(), "Menu": MainPage(), "Retrieve": RetrievePage(), "Relative": RelativePage(), "Add": AddPage()}
-    BINDINGS = [('q', "exit", 'Exit'),("d", "toggle_dark", "Toggle dark mode")]
+    SCREENS= {"Login": LoginPage(), "Menu": MainPage(), "Retrieve": RetrievePage(), "Relative": RelativePage(), "Add": AddPage(), "about": AboutPage()}
+    BINDINGS = [('q', "exit", 'Exit'),("d", "toggle_dark", "Toggle dark mode"), ("p", "about", "About")]
 
     def on_mount(self):
         self.push_screen("Login")
@@ -360,6 +360,8 @@ class CLI(App):
         self.dark = not self.dark
     def action_exit(self):
         self.exit("Exiting")
+    def action_about(self):
+        self.push_screen("about")
 
 
 if __name__ == "__main__":

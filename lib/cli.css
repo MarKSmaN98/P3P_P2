@@ -13,13 +13,20 @@ MainPage Horizontal {
 
 MainPage Container {
     align: center top;
-    margin-left: 83;
-    margin-top: 2;
+    /* margin-left: 83;
+    margin-top: 2; */
 }
 
 MainPage Horizontal * {
     margin-left: 2;
     margin-right: 2;
+}
+
+.title {
+    text-style: bold italic;
+    text-align: center;
+    margin-top: 1;
+    margin-bottom: 2;
 }
 
 #buttons {
