@@ -34,3 +34,11 @@ MainOptionWidget * {
     margin-right: 5;
 
 }
+
+AddPage {
+    align: center middle;
+}
+
+Screen {
+    align: center middle;
+}

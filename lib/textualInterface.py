@@ -1,7 +1,7 @@
 from textual.app import App, ComposeResult
 from textual.screen import Screen
-from textual.widgets import Header, Footer, Button, Static, Input, DataTable
-from textual.containers import Container
+from textual.widgets import Header, Footer, Button, Static, Input, DataTable, ContentSwitcher
+from textual.containers import Container, Horizontal
 from db.models import Town, Restaurant, Review
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
@@ -20,13 +20,16 @@ from sqlalchemy.orm import sessionmaker
 
 
 class Model:
+    # towns = []
+    # restaurants = []
+    # reviews = []
     def __init__(self):
         engine = create_engine('sqlite:///db/thirddb.db')
         Session = sessionmaker(bind=engine)
-        session = Session()
-        towns = [town for town in session.query(Town)]
-        restaurants = [rest for rest in session.query(Restaurant)]
-        reviews = [rev for rev in session.query(Review)]
+        self.session = Session()
+        self.towns = [town for town in self.session.query(Town)]
+        self.restaurants = [rest for rest in self.session.query(Restaurant)]
+        self.reviews = [rev for rev in self.session.query(Review)]
 
 
 class LoginPage(Screen):
@@ -69,26 +72,160 @@ class MainOptionWidget(Static):
     def on_button_pressed(self, event:Button.Pressed):
         if event.button.id == "dataButton":
             app.push_screen('Retrieve')
+        elif event.button.id == "relationButton":
+            app.push_screen("Relative")
+        elif event.button.id == "addButton":
+            app.push_screen("Add")
 
 class RetrievePage(Screen):
 
-    BINDINGS=[('q', "pop_screen()", "Go Back"), ('1 t', 'get_towns', 'Town Data')]
+    BINDINGS=[('q', "pop_screen()", "Go Back"), ('t', 'get_towns()', 'Town Data'), ('r', 'get_rest()', 'Restaurant Data'), ('v', 'get_rev()', 'Review Data')]
 
     def compose(self):
         yield Header(show_clock=True)
         yield Footer()
-        # yield DataTable(id="Retrieved", name="Container", zebra_stripes=True)
-        yield Static("Hello",id="test")
-        yield Container(id="xx")
+        yield Container(id="target")
+        yield Static(id="retrieved")
 
-    def get_towns(self):
+    def action_get_towns(self):
+        self.query_one("#retrieved").remove()
         towns = CLI.model.towns
-        t = self.query_one("#xx").mount(Static("this"))
-        file = open("./log.txt", 'w')
-        file.write(t)
-        file.close()
+        table = DataTable(id="retrieved", name="Container", zebra_stripes=True)
+        table.add_columns("ID", "Town Name", "State", f"Length: {len(towns)}")
+        for town in towns:
+            table.add_row(town.id, town.name, town.id)
+        self.query_one("#target").mount(table)
+
+    def action_get_rest(self):
+        self.query_one("#retrieved").remove()
+        rest = CLI.model.restaurants     
+        table = DataTable(id="retrieved", name="Container", zebra_stripes=True)
+        table.add_columns("ID", "Name", "Address", "Phone", f"Length: {len(rest)}")
+        for r in rest:
+            table.add_row(r.id, r.name, r.address, r.phone)
+        self.query_one("#target").mount(table)
+
+    def action_get_rev(self):
+        self.query_one("#retrieved").remove()
+        table = DataTable(id="retrieved", name="Container", zebra_stripes=True)
+        rev = CLI.model.reviews
+        table.add_columns("ID", "Review", "Star Rating", f"Length: {len(rev)}")
+        for r in rev:
+            table.add_row(r.id, r.review_text, r.review_rating)
+        self.query_one("#target").mount(table)
+        pass
+        
+class RelativePage(Screen):
+
+    BINDINGS=[('q', "pop_screen()", "Go Back"), ('t', 'get_towns_rest()', 'See Restaurants in Towns'), ('r', 'get_rest_rev()', 'See Restaurant Reviews')]
+
+    def compose(self):
+        yield Header(show_clock=True)
+        yield Footer()
+        yield Container(id="target")
+        yield Static(id="retrieved")
+
+    def action_get_towns_rest(self):
+        towns = CLI.model.towns
+        rests = CLI.model.restaurants
+        self.query_one("#retrieved").remove()
+        table = DataTable(id="retrieved", name="Container", zebra_stripes=True)
+        table.add_columns("Town", "Restaurants")
+        for town in towns:
+            table.add_row(town.name, None)
+            for rest in rests:
+                if rest.town_id == town.id:
+                    table.add_row(None, rest.name)
+        self.query_one("#target").mount(table)
+
+    def action_get_rest_rev(self):
+        rests = CLI.model.restaurants
+        revs = CLI.model.reviews
+        towns = CLI.model.towns
+        self.query_one("#retrieved").remove()
+        table = DataTable(id="retrieved", name="Container", zebra_stripes=True)
+        table.add_columns("Town", "Restaurant", "Review", "Stars")
+        for town in towns:
+            table.add_row(town.name, None, None, None)
+            for rest in rests:
+                if rest.town_id == town.id:
+                    table.add_row(None, rest.name, None, None)
+                    for rev in revs:
+                        if rev.restaurant_id == rest.id:
+                            table.add_row(None, None, rev.review_text, rev.review_rating)
+        self.query_one("#target").mount(table)
 
 
+class AddPage(Screen):
+    """Add"""
+
+    BINDINGS=[('q', "pop_screen()", "Go Back")]
+
+
+    def compose(self):
+        yield Header(show_clock=True)
+        yield Footer()
+        with Horizontal(id="buttons"):
+            yield Button("Add Town", id="town")
+            yield Button("Add Restaurant", id="rest")
+            yield Button("Add Review", id="rev")
+        with ContentSwitcher(id="switcher", initial="town"):
+            with Container(id="town"):
+                yield Input(placeholder="Town Name", id="town_name")
+                yield Input(placeholder="Town State", id="town_state")
+                yield Button("Submit", id="town_submit")
+            with Container(id="rest"):
+                yield Input(placeholder="Restaurant Name", id="rest_name")
+                yield Input(placeholder="Address", id="rest_address")
+                yield Input(placeholder="Phone", id="rest_phone")
+                yield Input(placeholder="Residing Town ID", id="rest_town")
+                yield Button("Submit", id="rest_submit")
+            with Container(id="rev"):
+                yield Input(placeholder="Rating Text", id="rev_text")
+                yield Input(placeholder="Stars", id="rev_stars")
+                yield Input(placeholder="Pertaining Restaurant ID", id="rev_rest")
+                yield Button("Submit", id="rev_submit")
+                
+
+    def on_button_pressed(self, event:Button.Pressed):
+        if event.button.id == "town" or event.button.id == "rest" or event.button.id == "rev":
+            self.query_one("#switcher").current=event.button.id
+
+
+        if event.button.id == "town_submit":
+            town_name = self.query_one("#town_name").value
+            town_state = self.query_one("#town_state").value
+            new_town = Town(name=town_name, state=town_state)
+            self.add_town(new_town)
+        if event.button.id == "rest_submit":
+            rest_name = self.query_one("#rest_name").value
+            rest_address = self.query_one("#rest_address").value
+            rest_phone = self.query_one("#rest_phone").value
+            rest_town = self.query_one("#rest_town").value
+            new_rest = Restaurant(name=rest_name, address=rest_address, phone=rest_phone, town_id=rest_town)
+            self.add_rest(new_rest)
+        if event.button.id == "rev_submit":
+            rev_text = self.query_one("#rev_text").value
+            rev_stars = self.query_one("#rev_stars").value
+            rev_rest = self.query_one("#rev_rest").value
+            new_rev = Review(review_text=rev_text, review_rating=rev_stars, restaurant_id=rev_rest)
+            self.add_rev(new_rev)
+
+    def add_town(self, town):
+        session = CLI.model.session
+        session.add(town)
+        session.commit()
+        CLI.model.towns.append(town)
+    def add_rest(self, rest):
+        session = CLI.model.session
+        session.add(rest)
+        session.commit()
+        CLI.model.restaurants.append(rest)
+    def add_rev(self, rev):
+        session = CLI.model.session
+        session.add(rev)
+        session.commit()
+        CLI.model.reviews.append(rev)
         
 
 
@@ -124,7 +261,7 @@ class CLI(App):
     model = Model()
 
     CSS_PATH="cli.css"
-    SCREENS= {"Login": LoginPage(), "Menu": MainPage(), "Retrieve": RetrievePage()}
+    SCREENS= {"Login": LoginPage(), "Menu": MainPage(), "Retrieve": RetrievePage(), "Relative": RelativePage(), "Add": AddPage()}
     BINDINGS = [('q', "exit", 'Exit'),("d", "toggle_dark", "Toggle dark mode")]
 
     def on_mount(self):
