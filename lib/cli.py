@@ -86,6 +86,9 @@ class CLI:
         print('*  //o//i\\*\\\   *')
         print('* /i///*/\\\\\o\   *')
         print('*   *   ||     * ')
+        print('     Mark Coats  ')
+        print('                 ')
+        print("     Kyle O'Neill ")
         time.sleep(.5)
 
     def anim2(self):
@@ -103,6 +106,9 @@ class CLI:
         print(' * //i//i\\*\\\*      ')
         print('  /i///*/\\\\\i\  *   ')
         print(' *      ||         *  ')
+        print('                  ')
+        print('     Raymond An   ')
+        print("                  ")
         time.sleep(.5)
             
 
