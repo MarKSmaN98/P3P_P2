@@ -89,8 +89,20 @@ class RetrievePage(Screen):
     def compose(self):
         yield Header(show_clock=True)
         yield Footer()
+        with Container(id="buttons"):
+            yield Button("Raw Towns", id="town")
+            yield Button("Raw Restaurants", id="rest")
+            yield Button("Raw Reviews", id="rev")
         yield Container(id="target")
         yield Static(id="retrieved")
+
+    def on_button_pressed(self, event:Button.Pressed):
+        if event.button.id == 'town':
+            self.action_get_towns()
+        elif event.button.id == 'rest':
+            self.action_get_rest()
+        elif event.button.id == 'rev':
+            self.action_get_rev()
 
     def action_get_towns(self):
         self.query_one("#retrieved").remove()
@@ -127,8 +139,17 @@ class RelativePage(Screen):
     def compose(self):
         yield Header(show_clock=True)
         yield Footer()
+        with Container(id='buttons'):
+            yield Button("View Restaurants in Towns", id='one')
+            yield Button ("View Reviews for Restaurants", id='two')
         yield Container(id="target")
         yield Static(id="retrieved")
+
+    def on_button_pressed(self, event:Button.Pressed):
+        if event.button.id == "one":
+            self.action_get_towns_rest()
+        elif event.button.id == "two":
+            self.action_get_rest_rev()
 
     def action_get_towns_rest(self):
         towns = CLI.model.towns
@@ -170,6 +191,8 @@ class AddPage(Screen):
     def compose(self):
         yield Header(show_clock=True)
         yield Footer()
+        yield Container(id="listswitch")
+        yield DataTable(id="listview")
         with Horizontal(id="buttons"):
             yield Button("Add Town", id="town")
             yield Button("Add Restaurant", id="rest")
@@ -190,13 +213,21 @@ class AddPage(Screen):
                 yield Input(placeholder="Stars", id="rev_stars")
                 yield Input(placeholder="Pertaining Restaurant ID", id="rev_rest")
                 yield Button("Submit", id="rev_submit")
-                
 
     def on_button_pressed(self, event:Button.Pressed):
-        if event.button.id == "town" or event.button.id == "rest" or event.button.id == "rev":
+        #SWITCH BUTTONS
+        if event.button.id == "town":
             self.query_one("#switcher").current=event.button.id
+            self.pop_town()
+        if event.button.id == "rest":
+            self.query_one("#switcher").current=event.button.id
+            self.pop_town()
+        if event.button.id == "rev":
+            self.query_one("#switcher").current=event.button.id
+            self.pop_rest()
+        #END SWITCH BUTTONS
 
-
+        #SUBMIT BUTTONS
         if event.button.id == "town_submit":
             town_name = self.query_one("#town_name").value
             town_state = self.query_one("#town_state").value
@@ -215,6 +246,9 @@ class AddPage(Screen):
             rev_rest = self.query_one("#rev_rest").value
             new_rev = Review(review_text=rev_text, review_rating=rev_stars, restaurant_id=rev_rest)
             self.add_rev(new_rev)
+        #END SUBMIT BUTTONS
+
+    #SQL QUERIES
 
     def add_town(self, town):
         session = CLI.model.session
@@ -231,13 +265,55 @@ class AddPage(Screen):
         session.add(rev)
         session.commit()
         CLI.model.reviews.append(rev)
+    
+    #END SQL QUERIES
+
+    #TABLE OPERATIONS
+
+    def add_table(self, table):
+        self.query_one('#listview').remove()
+        self.query_one("#listswitch").mount(table)
+
+
+    def pop_town(self):
+        t_t = DataTable(id="listview", zebra_stripes=True)
+        towns = CLI.model.towns
+        t_t.add_columns("ID", "Town Name", "State", f"Length: {len(towns)}")
+        for town in towns:
+            t_t.add_row(town.id, town.name, town.id)
+        self.add_table(t_t)
+
+    def pop_rest(self):
+        r_t = DataTable(id="listview", zebra_stripes=True)
+        rest = CLI.model.restaurants
+        r_t.add_columns("ID", "Name", "Address", "Phone", f"Length: {len(rest)}")
+        for r in rest:
+            r_t.add_row(r.id, r.name, r.address, r.phone)
+        self.add_table(r_t)
+    
+    def pop_rev(self):
+        v_t = DataTable(id="listview", zebra_stripes=True)
+        rev = CLI.model.reviews
+        v_t.add_columns("ID", "Review", "Star Rating", f"Length: {len(rev)}")
+        for r in rev:
+            v_t.add_row(r.id, r.review_text, r.review_rating)
+        self.add_table(v_t)
+
+    #END TABLE OPERATIONS
+
+    #HOT KEY ACTIONS
 
     def action_add_town(self):
         self.query_one("#switcher").current="town"
+        self.pop_town()
     def action_add_rest(self):
         self.query_one("#switcher").current="rest"
+        self.pop_rest()
     def action_add_rev(self):
         self.query_one("#switcher").current="rev"
+        self.pop_rev()
+
+    #END HOT KEY ACTIONS
         
 
 

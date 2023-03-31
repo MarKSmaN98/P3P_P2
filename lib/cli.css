@@ -22,6 +22,17 @@ MainPage Horizontal * {
     margin-right: 2;
 }
 
+#buttons {
+    layout:horizontal;
+    height: 3;
+    align: center top
+}
+
+#buttons *{
+    margin-left: 5;
+    margin-right: 5;
+}
+
 #username {
     width:40;
 }
