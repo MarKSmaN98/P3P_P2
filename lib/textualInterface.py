@@ -308,10 +308,10 @@ class AddPage(Screen):
         self.pop_town()
     def action_add_rest(self):
         self.query_one("#switcher").current="rest"
-        self.pop_rest()
+        self.pop_town()
     def action_add_rev(self):
         self.query_one("#switcher").current="rev"
-        self.pop_rev()
+        self.pop_rest()
 
     #END HOT KEY ACTIONS
         
